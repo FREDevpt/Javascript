@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="gestionpanier.js"></script>
+    <link rel="stylesheet" href="gestionpanier.css">
+</head>
+<body>
+
+<section>
+    <article>
+        <h3>Fondation foudroyée</h3>
+        <button onclick="addProduct('livre');">Ajouter</button>
+        <button onclick="deleteProduct('livre');">Supprimer</button>
+    </article>
+    <article>
+        <h3>PS3</h3>
+        <button onclick="addProduct('console');">Ajouter</button>
+        <button onclick="deleteProduct('console');">Supprimer</button>
+    </article>
+    <article>
+        <h3>Orchidées</h3>
+        <button onclick="addProduct('fleur');">Ajouter</button>
+        <button onclick="deleteProduct('fleur');">Supprimer</button>
+    </article>
+    <article>
+        <h3>Liste des articles</h3>
+        <div id="resultat">
+            aucun article pour l'instant
+        </div>
+    </article>
+</section>
+
+
+
+
+</body>
+</html>
